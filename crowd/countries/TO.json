@@ -1,0 +1,9 @@
+{
+ "_meta":{"source":["WikiLingDiv (Wikimedia pageviews)","Unicode CLDR"],"retrieved":"2026-09-23","license":"WikiLingDiv: CC BY 4.0; Wikimedia: CC0; CLDR: Unicode License v3. Compilation: CC BY-NC-SA 4.0 (see LICENSE).","url":["https://zenodo.org/records/22127016","https://cldr.unicode.org/"],"notes":"Fractions 0-1: statcounter = page views, firefox = Firefox desktop weekly users."},
+ "iso2":"TO",
+ "continent":"oc",
+ "statcounter":null,
+ "firefox":null,
+ "language":{"basis":"wikipedia-en","en":{"mid":1,"low":0.8126,"high":1},"wikiEn":0.8667,"wikiYear":2024,"official":{"to":0.95,"en":0.28}},
+ "lowConfidence":["language-predicted: no Firefox data; en from English-Wikipedia share (±1 SD), rest CLDR"]
+}

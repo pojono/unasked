@@ -1,0 +1,64 @@
+{
+ "_meta":{
+  "source":["Eurostat, isoc_ci_dev_i \"Individuals - devices used to access the internet\" (dataset updated 2026-04-17T11:00:00+0200)","IBGE, PNAD Continua TIC, SIDRA table 7337 (variable 10650)","NTIA Internet Use Survey (Census CPS Computer and Internet Use Supplement), Nov 2023, NTIA Data Explorer table"],
+  "retrieved":"2026-09-23",
+  "license":"Eurostat: reuse authorised with acknowledgement (Commission Decision 2011/833/EU), \"(c) European Union\"; IBGE: reuse with source citation; NTIA/US Census: US government work (public domain). Credit line: \"Device use: Eurostat (c) European Union, IBGE, NTIA.\"",
+  "url":["https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_ci_dev_i?format=JSON&lang=EN&unit=PC_IND_IU3&ind_type=IND_TOTAL&sinceTimePeriod=2019&indic_is=I_IUG_MP&indic_is=I_IUG_TPC&indic_is=I_IUG_DKPC&indic_is=I_IUG_LPC&indic_is=I_IUG_IPCQ&indic_is=I_IUG_IPCTMP&indic_is=I_IUG_IPC","https://ec.europa.eu/eurostat/databrowser/view/isoc_ci_dev_i/default/table","https://servicodados.ibge.gov.br/api/v3/agregados/7337/periodos/-3/variaveis/10650?localidades=N1[all]&classificacao=680[33216,33224,33228]","https://sidra.ibge.gov.br/tabela/7337","https://www.ntia.gov/sites/default/files/data_central_downloads/datasets/ntia-analyze-table.csv","https://www.ntia.gov/data/explorer"],
+  "notes":"P(goes online with phone / tablet / computer | internet user): people, not page views; a person counts in every class they use. Survey ages and periods differ (see each row). fallback = the plan's assumption where no survey exists (tablet/computer: no data). Full method notes: SOURCES.md. Compilation CC BY-NC-SA 4.0 (LICENSE); each source keeps its own licence."
+ },
+ "countries":{
+  "AL":{"phone":0.9989,"tablet":0.1545,"computer":0.5126,"year":2025,"ages":"16-74","source":"eurostat"},
+  "AT":{"phone":0.9636,"tablet":0.3529,"computer":0.7165,"year":2025,"ages":"16-74","source":"eurostat"},
+  "BA":{"phone":0.9342,"tablet":0.1742,"computer":0.5951,"year":2025,"ages":"16-74","source":"eurostat"},
+  "BE":{"phone":0.9355,"tablet":0.3029,"computer":0.7457,"year":2025,"ages":"16-74","source":"eurostat"},
+  "BG":{"phone":0.9841,"tablet":0.1606,"computer":0.5184,"year":2025,"ages":"16-74","source":"eurostat"},
+  "BR":{"phone":0.987,"tablet":0.092,"computer":0.334,"year":2025,"ages":"10+","source":"ibge"},
+  "CH":{"phone":0.9939,"tablet":0.447,"computer":0.8224,"year":2025,"ages":"16-74","source":"eurostat"},
+  "CY":{"phone":0.9923,"tablet":0.4599,"computer":0.6202,"year":2025,"ages":"16-74","source":"eurostat"},
+  "CZ":{"phone":0.9519,"tablet":0.3588,"computer":0.8687,"year":2025,"ages":"16-74","source":"eurostat"},
+  "DE":{"phone":0.9241,"tablet":0.434,"computer":0.698,"year":2025,"ages":"16-74","source":"eurostat"},
+  "DK":{"phone":0.9562,"tablet":0.3854,"computer":0.7817,"year":2025,"ages":"16-74","source":"eurostat"},
+  "EE":{"phone":0.9279,"tablet":0.2183,"computer":0.7919,"year":2025,"ages":"16-74","source":"eurostat"},
+  "ES":{"phone":0.9891,"tablet":0.3495,"computer":0.6626,"year":2025,"ages":"16-74","source":"eurostat"},
+  "FI":{"phone":0.9607,"tablet":0.3558,"computer":0.8399,"year":2025,"ages":"16-74","source":"eurostat"},
+  "FR":{"phone":0.9417,"tablet":0.3288,"computer":0.7988,"year":2025,"ages":"16-74","source":"eurostat"},
+  "GR":{"phone":0.9496,"tablet":0.2521,"computer":0.7249,"year":2025,"ages":"16-74","source":"eurostat"},
+  "HR":{"phone":0.9836,"tablet":0.1336,"computer":0.7286,"year":2025,"ages":"16-74","source":"eurostat"},
+  "HU":{"phone":0.9559,"tablet":0.3226,"computer":0.7735,"year":2025,"ages":"16-74","source":"eurostat"},
+  "IE":{"phone":0.9811,"tablet":0.4904,"computer":0.8525,"year":2025,"ages":"16-74","source":"eurostat"},
+  "IS":{"phone":0.9657,"tablet":0.4795,"computer":0.9169,"year":2021,"ages":"16-74","source":"eurostat"},
+  "IT":{"phone":0.9655,"tablet":0.3215,"computer":0.6681,"year":2025,"ages":"16-74","source":"eurostat"},
+  "LT":{"phone":0.9655,"tablet":0.2531,"computer":0.6325,"year":2025,"ages":"16-74","source":"eurostat"},
+  "LU":{"phone":0.9317,"tablet":0.3891,"computer":0.7037,"year":2025,"ages":"16-74","source":"eurostat"},
+  "LV":{"phone":0.951,"tablet":0.236,"computer":0.6941,"year":2025,"ages":"16-74","source":"eurostat"},
+  "ME":{"phone":0.9887,"tablet":0.1898,"computer":0.5783,"year":2025,"ages":"16-74","source":"eurostat"},
+  "MK":{"phone":0.9804,"tablet":0.1016,"computer":0.4788,"year":2025,"ages":"16-74","source":"eurostat"},
+  "MT":{"phone":0.9858,"tablet":0.3498,"computer":0.686,"year":2025,"ages":"16-74","source":"eurostat"},
+  "NL":{"phone":0.9861,"tablet":0.4899,"computer":0.8692,"year":2025,"ages":"16-74","source":"eurostat"},
+  "NO":{"phone":0.9897,"tablet":0.4629,"computer":0.8517,"year":2025,"ages":"16-74","source":"eurostat"},
+  "PL":{"phone":0.9738,"tablet":0.181,"computer":0.7139,"year":2025,"ages":"16-74","source":"eurostat"},
+  "PT":{"phone":0.9836,"tablet":0.2926,"computer":0.7126,"year":2025,"ages":"16-74","source":"eurostat"},
+  "RO":{"phone":0.9884,"tablet":0.1832,"computer":0.4075,"year":2025,"ages":"16-74","source":"eurostat"},
+  "RS":{"phone":0.9655,"tablet":0.1102,"computer":0.664,"year":2025,"ages":"16-74","source":"eurostat"},
+  "SE":{"phone":0.9704,"tablet":0.3505,"computer":0.7973,"year":2025,"ages":"16-74","source":"eurostat"},
+  "SI":{"phone":0.9818,"tablet":0.2277,"computer":0.7016,"year":2025,"ages":"16-74","source":"eurostat"},
+  "SK":{"phone":0.9145,"tablet":0.2739,"computer":0.6712,"year":2025,"ages":"16-74","source":"eurostat"},
+  "TR":{"phone":0.9961,"tablet":0.1493,"computer":0.3395,"year":2025,"ages":"16-74","source":"eurostat"},
+  "US":{"phone":0.9599,"tablet":0.3708,"computer":null,"range":{"computer":[0.6759,0.8167]},"year":2023,"period":"Nov 2023","ages":"15+","source":"ntia"},
+  "XK":{"phone":0.9978,"tablet":0.0981,"computer":0.2451,"year":2025,"ages":"16-74","source":"eurostat"}
+ },
+ "aggregates":{
+  "EU27_2020":{"phone":0.958,"tablet":0.3348,"computer":0.7139,"year":2025,"ages":"16-74","source":"eurostat","name":"European Union - 27 countries (from 2020)"}
+ },
+ "fallback":{
+  "phone":0.95,
+  "tablet":null,
+  "computer":null,
+  "assumed":true,
+  "note":"Assumption from the project plan, not a measurement: used where no national survey exists. Show \"no data\" for tablet and computer."
+ },
+ "lowConfidence":{
+  "IS":"latest survey year 2021 (newest Eurostat wave 2025)",
+  "US":"computer only as bounds (NTIA gives desktop, laptop and \"desktop, laptop or tablet\", not \"desktop or laptop\"); device questions cover device use in the past 6 months, not going online with it"
+ }
+}

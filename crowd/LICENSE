@@ -1,0 +1,50 @@
+Crowd data (public/crowd/) — data licence
+=========================================
+
+The code of this project is not licensed for reuse (all rights reserved). The data files in this
+folder are a separate compilation with their own terms.
+
+Compilation
+-----------
+The compilation in public/crowd/ (selection, arrangement, normalisation and the derived values
+computed by scripts/crowd/build.mjs) is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International licence (CC BY-NC-SA 4.0):
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+It is CC BY-NC-SA because it combines share-alike inputs (StatCounter, Firefox Public Data Report,
+Appt.org) with non-commercial inputs (Cloudflare Radar, ITU data via the UN SDG database).
+The project is non-commercial.
+
+Each source keeps its own licence
+---------------------------------
+Numbers taken from a source remain under that source's terms; when you reuse figures from one
+source, follow that source's licence and attribution line (SOURCES.md):
+
+- World Bank WDI (population; internet use from ITU) ........ CC BY 4.0 — cite the ITU for internet use
+- GeoNames ................................................ CC BY 4.0
+- IANA tz database ........................................ public domain
+- Eurostat (isoc_ci_dev_i, isoc_cisci_prv20) ............... reuse with acknowledgement, © European Union (CC BY 4.0)
+- IBGE (SIDRA 7337) ....................................... reuse with source citation
+- NTIA Internet Use Survey ................................ US government work, public domain
+- StatCounter Global Stats ................................ CC BY-SA 3.0 (credit with a link to gs.statcounter.com)
+- Mozilla Firefox Public Data Report ....................... CC BY-SA 3.0 or any later version (website-content licence;
+                                                            the report has no separate data licence)
+- Wikimedia Foundation analytics .......................... CC0 1.0
+- WikiLingDiv v1.1 (Essfors) .............................. CC BY 4.0
+- Unicode CLDR ............................................ Unicode License v3
+- Appt.org ................................................ CC BY-SA 4.0 — a visible link to https://appt.org is required
+- UN SDG Global Database / ITU ............................ UN terms of use (non-commercial, with attribution);
+                                                            ITU DataHub: CC BY-NC-SA 3.0 IGO
+- Cloudflare Radar (derived cross-check shares only) ....... CC BY-NC 4.0
+- Chrome Platform Status, Mozilla GLAM ..................... no explicit data licence; a few derived figures
+                                                            cited with attribution
+- Research papers: Gómez-Boix et al. 2018, Berke et al. 2025 (CC BY 4.0); Andriamilanto et al. 2022,
+  Eckersley 2010 — individual figures cited as facts with attribution and DOI
+- Cite-only single figures (DeviceAtlas, eyeo, Microsoft 2019, Wikimedia 2024) — quoted with attribution,
+  not licensed for bulk reuse
+
+Note: CC BY-SA 3.0 asks adaptations to use the same licence elements (BY-SA); combining it with
+non-commercial sources is a project decision, not legal advice. If you need the StatCounter or
+Firefox figures without the NC restriction, take them from the original sources.
+
+Generated 2026-09-23 by scripts/crowd/build.mjs.

@@ -1,0 +1,8 @@
+{
+ "_meta":{"source":["Mozilla Firefox Public Data Report"],"retrieved":"2026-09-23","license":"Firefox PDR: CC BY-SA 3.0 or later. Compilation: CC BY-NC-SA 4.0 (see LICENSE).","url":["https://data.firefox.com/dashboard/usage-behavior"],"notes":"Fractions 0-1: statcounter = page views, firefox = Firefox desktop weekly users."},
+ "iso2":"MO",
+ "continent":"as",
+ "statcounter":null,
+ "firefox":{"mean12w":{"zh-TW":0.477,"en-US":0.3491,"zh-CN":0.136,"en-GB":0.02389,"pt-PT":0.008924},"cutoff":0.008706,"sightings52w":{"fr":{"weeks":12,"meanPct":0.008883},"es-ES":{"weeks":10,"meanPct":0.009091},"ru":{"weeks":4,"meanPct":0.01161},"ja":{"weeks":2,"meanPct":0.009372},"pl":{"weeks":2,"meanPct":0.008771},"it":{"weeks":2,"meanPct":0.00848},"ko":{"weeks":1,"meanPct":0.008929},"de":{"weeks":1,"meanPct":0.008696},"el":{"weeks":1,"meanPct":0.008264},"en-CA":{"weeks":1,"meanPct":0.008}}},
+ "lowConfidence":["firefox-volatile: top locale zh-TW moved 17 pp within 12 weeks"]
+}

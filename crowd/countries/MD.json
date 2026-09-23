@@ -1,0 +1,8 @@
+{
+ "_meta":{"source":["Mozilla Firefox Public Data Report"],"retrieved":"2026-09-23","license":"Firefox PDR: CC BY-SA 3.0 or later. Compilation: CC BY-NC-SA 4.0 (see LICENSE).","url":["https://data.firefox.com/dashboard/usage-behavior"],"notes":"Fractions 0-1: statcounter = page views, firefox = Firefox desktop weekly users."},
+ "iso2":"MD",
+ "continent":"eu",
+ "statcounter":null,
+ "firefox":{"mean12w":{"ru":0.5645,"en-US":0.3188,"ro":0.07091,"en-GB":0.03703},"cutoff":0.008886,"sightings52w":{"fr":{"weeks":12,"meanPct":0.004445},"zh-CN":{"weeks":12,"meanPct":0.004402},"it":{"weeks":12,"meanPct":0.003668},"de":{"weeks":6,"meanPct":0.003964},"uk":{"weeks":4,"meanPct":0.003211},"fa":{"weeks":1,"meanPct":0.003891},"pl":{"weeks":1,"meanPct":0.001938},"da":{"weeks":1,"meanPct":0.001848},"nl":{"weeks":1,"meanPct":0.001739}}},
+ "lowConfidence":[]
+}
