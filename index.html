@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="A privacy laboratory: see what any website can learn about your browser right now — without asking for a single permission. Everything is calculated locally."
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>What your browser reveals — Web Fingerprint Inspector</title>
+    <script type="module" crossorigin src="./assets/index-8LKhW3wX.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C47leWhv.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; padding: 24px">
+        This page needs JavaScript to read what your browser reveals. Everything runs locally in your browser.
+      </p>
+    </noscript>
+    <script>
+      // Fallback for when the app never mounts (a browser too old for this page, or a script error):
+      // a readable message instead of a blank page. Module scripts run before "load".
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var root = document.getElementById('root');
+          if (!root || root.firstChild) return;
+          var p = document.createElement('p');
+          p.style.cssText = 'font-family:-apple-system,BlinkMacSystemFont,sans-serif;padding:24px;max-width:36em';
+          p.textContent =
+            "This page couldn't start in this browser. It needs a recent version of Safari, Chrome or Firefox. If you already use one, try reloading.";
+          root.appendChild(p);
+        }, 3000);
+      });
+    </script>
+    <script nomodule>
+      document.getElementById('root').innerHTML =
+        '<p style="font-family:sans-serif;padding:24px">This browser is too old to run this page. Please open it in a recent version of Safari, Chrome or Firefox.</p>';
+    </script>
+  </body>
+</html>
