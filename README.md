@@ -11,4 +11,5 @@ This repository is the site exactly as it is served: the production build, publi
 The code in this repository is © pojono, all rights reserved: you may read it, but no licence to copy, modify or redistribute it is granted.
 
 - `third-party-licenses.md` lists the open-source libraries bundled into the site, with their licences.
+- The word list behind “Your three words” is [EFF's Short Wordlist #1](https://www.eff.org/dice) by the Electronic Frontier Foundation, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), with some words removed.
 - A folder that carries its own `LICENSE` file is under that licence instead.
