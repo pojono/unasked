@@ -1,0 +1,92 @@
+Licences and terms of the files in this directory (net/)
+=========================================================
+
+The files here are derived from the sources listed in SOURCES.md. Each keeps the terms of its source:
+
+- ip2asn/*: derived from iptoasn.com (https://iptoasn.com/), public domain (ODC PDDL v1.0).
+- asn/*: combines
+  - ipverse/as-metadata (https://github.com/ipverse/as-metadata), CC0 1.0;
+  - NRO / RIR delegated statistics (public registry statistics);
+  - Linnaeus AS classification (https://github.com/NU-AquaLab/linnaeus), MIT License (notice "linnaeus" below);
+  - X4BNet lists_vpn ASN lists (https://github.com/X4BNet/lists_vpn), MIT License as stated in the project's
+    README; the repository has no LICENSE file, so the README's licence section is quoted (notice "x4b" below);
+  - bgp.tools class and tags (https://bgp.tools/) and Stanford ASdb (https://asdb.stanford.edu/): no licence is
+    published; included in this prototype pending the owners' permission. ASdb citation: Ziv et al., IMC 2021.
+- ranges/*: ranges published by their operators for public or firewall use (Amazon, Google, Microsoft, Oracle,
+  GitHub, Cloudflare, Fastly, DigitalOcean, Linode/Akamai, Vultr, Zscaler, Apple, SpaceX Starlink) and VPN
+  operators' public server lists (Mullvad, IVPN, NordVPN, Private Internet Access; only the address → operator
+  mapping). Each range carries the date of its list; the operators' lists remain theirs.
+- exits/*: single addresses from the Tor Project's exit list and relay data (CC0 1.0).
+- asn-domain/*: network website domains derived from IPLocate.io's free IP to ASN database
+  (https://www.iplocate.io/, https://github.com/iplocate/ip-address-databases), licensed CC BY-SA 4.0
+  (https://creativecommons.org/licenses/by-sa/4.0/). These derived files are likewise licensed CC BY-SA 4.0.
+  Changes: reduced to one domain per network number and split into files by network-number range.
+  Credit "IPLocate.io" with a link to https://www.iplocate.io/ wherever a domain is shown.
+- rdap-bootstrap.json: IANA RDAP bootstrap registries (public).
+
+Upstream notices
+================
+
+Reproduced verbatim from the upstream repositories; scripts/net downloads them again on every refresh.
+
+----- BEGIN NOTICE linnaeus -----
+Source: https://raw.githubusercontent.com/NU-AquaLab/linnaeus/main/LICENSE
+From: Linnaeus AS classification (NU-AquaLab/linnaeus), LICENSE file
+Applies to: the Linnaeus labels in asn/*
+
+MIT License
+
+Copyright (c) 2024 Esteban Carisimo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+----- END NOTICE linnaeus -----
+
+----- BEGIN NOTICE x4b -----
+Source: https://raw.githubusercontent.com/X4BNet/lists_vpn/main/README.md (upstream file last changed 2025-06-30)
+From: X4BNet/lists_vpn, the "License" section of README.md (the repository has no LICENSE file)
+Applies to: the X4BNet list memberships in asn/*
+
+# License
+
+Software in the below license corresponds to the scripts, automation, and the list itself (source files and generated output).
+
+```
+MIT License
+
+Copyright (c) 2024 X4B (Mathew Heard)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+----- END NOTICE x4b -----
